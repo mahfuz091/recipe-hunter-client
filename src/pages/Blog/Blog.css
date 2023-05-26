@@ -1,0 +1,26 @@
+.blog-banner {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.ques-ans {
+  border: 1px solid black;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.ques-ans h2 {
+  font-size: 24px;
+}
+
+.ques-ans p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.ques-ans span {
+  font-weight: 800;
+  margin-right: 10px;
+}

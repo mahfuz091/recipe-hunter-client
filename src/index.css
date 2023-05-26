@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1320px;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  #root {
+    padding: 0 12px;
+  }
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 0 auto;
+
+  width: 100%;
+}
+
+.banner {
+  background-image: url(/src/assets/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  padding: 200px 100px;
+}
+
+.banner-content-title {
+  color: white;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.card-img {
+  height: 200px;
+  width: 200px;
+}
+
+.reservation-banner {
+  background-image: url(/src/assets/thumb.jpg);
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.footer-banner {
+  background-image: url(/src/assets/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.error-section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(243, 244, 246, 0.814);
+  justify-content: center;
+}
+
+.error-section .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.error-icon {
+  height: 570px;
+  width: 570px;
+  margin-bottom: 50px;
+}
+
+.error-info {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.error-status {
+  margin-bottom: 50px;
+}
+
+.error-message {
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  @apply font-medium tracking-wide text-blue-700 transition-colors duration-200
+}
+
+.btn-favorite {
+  background: #ffc033;
+}
+
+.social-btn:hover {
+  background: #ffc033;
+}
+
+.btn-favorite:hover {
+  background: #c58b0e;
+
+}
+
+
+
+
+/* @media (max-width: 575px) {
+  .banner {
+    background-size: inherit;
+  }
+} */
